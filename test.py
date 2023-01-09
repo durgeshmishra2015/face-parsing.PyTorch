@@ -118,7 +118,7 @@ def evaluate(respth='./res/test_res', dspth='./data', cp='model_final_diss.pth')
             # print(parsing)
             print(np.unique(parsing))
 
-            vis_parsing_maps_2_mode(image, parsing, stride=1, save_im=True, save_path=osp.join(respth, image_path))
+            vis_parsing_maps(image, parsing, stride=1, save_im=True, save_path=osp.join(respth, image_path))
 
 
 
